@@ -1,0 +1,59 @@
+#calculator{
+    
+    display: grid;
+    margin-top: 50px;
+    width: 250px;
+    height: 300px;
+    grid-template-columns: repeat(4,1fr);
+    
+}
+#display{
+    text-align: right;
+    grid-area: 1/1/2/5;
+}
+#one{
+    grid-area: 4/1;
+}
+#two{
+    grid-area: 4/2;
+}
+#three{
+    grid-area: 4/3;
+}
+#four{
+    grid-area: 3/1;
+}
+#five{
+    grid-area: 3/2;
+}
+#six{
+    grid-area: 3/3;
+}
+#seven{
+    grid-area: 2/1;
+}
+#eight{
+    grid-area: 2/2;
+}
+#nine{
+    grid-area: 2/3;
+}
+#zero{
+    grid-area: 5/1/5/3;
+}
+
+#add{
+    grid-area: 5/4;
+}
+#subtract{
+    grid-area: 4/4;
+}
+#divide{
+    grid-area: 2/4;
+}
+#multiply{
+    grid-area: 3/4;
+}
+#clear{
+  grid-area: 6/1/6/5;
+}
